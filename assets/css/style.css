@@ -332,8 +332,10 @@ select.form__input {
         font-size: calc(90 * 100vw / 1920);
         text-align: center;
     }
-    input,select{
+      input,select{
         text-align: center;
+        text-align-last: center;
+        -webkit-appearance: none;
     }
     .form__label-text {
         font-size: calc(50 * 100vw / 1920);
