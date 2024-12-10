@@ -3,7 +3,7 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    background: url('/assets/imgs/background.png') center/cover no-repeat;
+    background: url('assets/imgs/background.png') center/cover no-repeat;
 }
 
 .container {
@@ -266,7 +266,7 @@ select.form__input {
 
 @media(max-width:500px){
     body {
-        background: url('/assets/imgs/background.png');
+        background: url('assets/imgs/background.png');
         background-repeat: no-repeat;
     }
     .main__content{
