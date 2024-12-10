@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.window{
+    background-color: #323644;
+    width: 50%;
+    height: 60%;
+    padding:  calc(24 * 100vw / 1920)  calc(40 * 100vw / 1920);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: calc(28 * 100vw / 1920);
+    align-items: center;
+    border-radius: calc(40 * 100vw / 1920);
+}
+.img-result{
+    width: 30%;
+}
+.text-result{
+    font-size: calc(28 * 100vw / 1920);
+    font-family: "Parkinsans", sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+}
+.form__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(50 * 100vw / 1920);
+}
